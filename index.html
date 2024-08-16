@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>中航工程机械产品展示官方网站</title>
+	<meta name="keywords" content="某某公司,某某产品">
+	<meta name="description" content="这是某某公司的网站">
+	<link rel="stylesheet" href="skin/style/css.css">
+	<link rel="stylesheet" href="skin/style/swiper.min.css">
+	<script type="text/javascript" src="skin/js/jquery1.9.1.js"></script>
+	<script src="skin/js/swiper.min.js"></script>
+</head>
+
+<body>
+<div class="header">
+    <a href="#" class="head-logo"><img src="skin/images/logo.png" alt=""></a>
+	<dl>
+		<dt>全国咨询热线</dt>
+		<dd>00000000000</dd>
+	</dl>
+    <div class="head-nav">
+    	<a href="#" class="navcur">网站首页</a>
+    	<a href="http://henan.komatsu.com.cn/about/gong-si-jie-shao.htm">关于我们</a>
+    	<a href="https://www.komatsu.com.cn/product/mining-machine.htm">产品中心</a>
+    	<a href="http://henan.komatsu.com.cn/service/shou-hou-fu-wu.htm">团队简介</a>
+    	<a href="http://henan.komatsu.com.cn/news/qi-ye-xin-wen.jsp">资讯动态</a>
+    </div>
+</div>
+
+<!-- 轮播图插件部分 -->
+<div id="banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            
+            <div class="swiper-slide"><img src="skin/images/banner1.jpg"></div>
+            <div class="swiper-slide"><img src="skin/images/banner2.jpg"></div>
+            
+        </div>
+        <div class="swiper-pagination"></div>        
+    </div>
+</div>
+<!-- 轮播图插件部分 -->
+
+<!-- 关于我们 -->
+<div class="index-us">
+    <img src="skin/images/河南豫松.png" alt="关于我们" width="720" height="420">
+		<dl>
+			<dt>关于我们</dt>
+				<dd>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;河南豫松工程机械有限公司坐落在黄河南岸的郑州市惠济区绿环路8号，占地近四十亩，建筑面积12000多平方米，设施先进，功能齐全，现有员工400余人，销售服务专车200多辆。公司设有整机销售部、技术服务部、零件销售部、债权管理部,、财务部及综合管理部等职能部门，截止目前，已在郑州、洛阳、三门峡、安阳、新乡、焦作、南阳、信阳、驻马店、平顶山等地设立了分公司。河南豫松的前身为“小松山推工程机械有限公司河南分公司”，在中原市场上有着辉煌的业绩和良好的信誉。在2004年底，为拓展市场，更好更全面地服务河南用户，公司进行改制，注资千万元，成立河南豫松工程机械有限公司，将整机销售、零件销售、技术服务、维修等业务联为一体。而随着公司的不断发展壮大，2010年5月31日，河南豫松搬迁到历时两年建设落成的河南豫松工业园区，至此，河南豫松工程机械有限公司新的里程碑和新的起跑线像两道炫目的彩虹，一并呈现在世人面前!
+				</dd>
+		</dl>
+</div>
+<div class="us-slide">
+	<div class="swiper-container">
+	   <div class="swiper-wrapper">
+            
+            <div class="swiper-slide"><img src="skin/images/p1.png"></div>
+            <div class="swiper-slide"><img src="skin/images/p2.png"></div>
+			<div class="swiper-slide"><img src="skin/images/p3.png"></div>
+            <div class="swiper-slide"><img src="skin/images/p4.png"></div>
+			<div class="swiper-slide"><img src="skin/images/p5.png"></div>
+			<div class="swiper-slide"><img src="skin/images/p6.png"></div>
+    
+        </div>
+	</div>	
+	<div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+
+<script type="text/javascript">
+    //banner
+    var swiper = new Swiper
+	('#banner .swiper-container', 
+	{
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '#banner .swiper-pagination',
+        clickable: true,
+      },
+    }
+    );
+
+    //us-slide
+    var swiper = new Swiper
+	('.us-slide .swiper-container', 
+	{
+      slidesPerView: 4,
+      spaceBetween: 30,
+      slidesPerGroup: 1,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: '.us-slide .swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.us-slide .swiper-button-next',
+        prevEl: '.us-slide .swiper-button-prev',
+      },
+    }
+    );
+</script>
+
+<div class="products">
+	<div class="title">产品中心<span>PRODUCTS</span></div>
+	<div class="business">
+	<dl class="b-left">
+		<dt><img src="skin/images/title.png" alt=""></dt>
+		<dd>
+			<p><a>产品一</a></p>
+			<p><a>产品二</a></p>
+			<p><a>产品三</a></p>
+			<p><a>产品四</a></p>
+			<p><a>产品五</a></p>
+			<p><a>产品六</a></p>
+		</dd>
+	</dl>
+	<ul class="b-right">
+		<li><a><span><img src="skin/images/pr1.jpg" alt=""></span><p>PC3000-6液压挖掘机</p></a></li>
+		<li><a><span><img src="skin/images/pr2.jpg" alt=""></span><p>PC2000-8液压挖掘机</p></a></li>
+		<li><a><span><img src="skin/images/pr3.jpg" alt=""></span><p>PC7000-11液压挖掘机</p></a></li>
+		<li><a><span><img src="skin/images/pr4.jpg" alt=""></span><p>PC5500-6液压挖掘机</p></a></li>
+		<li><a><span><img src="skin/images/pr5.jpg" alt=""></span><p>PC4000-6液压挖掘机</p></a></li>
+		<li><a><span><img src="skin/images/pr6.jpg" alt=""></span><p>PC3400-11液压挖掘机</p></a></li>
+	</ul>  
+	</div>
+</div>
+
+<!-- 广告图 -->
+<div class="banner-ad">
+	<div class="banner-a">
+	  <p>服务热线:13800000000<br>
+		 手机号码:13900000000</p>
+	</div>
+</div>
+<!-- 服务优势 -->
+  <div class="advertise">
+	  <dl class="ads adv-a">
+		<dt><img src="skin/images/adv04.png" alt="" width="347px" height="197px"></dt>
+		<dd>
+			  <div><span>STRENGTH</span>专注专业 实力品牌</div>
+			  <p>我们紧跟技术的更新与发展，不断探索与努力成为综合性优质企业</p>
+			  <p>拥有多台先进设备，现代化科技制造，铸就品牌实力</p>
+		</dd>
+	  </dl>
+
+	  <dl class="ads adv-b">
+		  <dt><img src="skin/images/adv05.png" alt="" width="413px" height="276px"></dt>
+		  <dd>
+			  <div><span>QUALITY</span>优质产品 精雕细琢</div>
+			  <p>公司全面贯彻质量管理体系要求，第一步确保品质检测</p>
+			  <p>从生产到出货全程高标准把关，保证产品质量</p>
+			  <p>数控精准操作、精密实施工艺、精细打磨好产品</p>
+		  </dd>
+	  </dl>
+
+	  <dl class="ads adv-c">
+		  <dt><img src="skin/images/adv06.png" alt="" width="373px" height="200px"></dt>
+		  <dd>
+			  <div><span>SERVICE</span>服务完善 放心之选</div>
+			  <p>多业务加工、生产、销售及售后，去除中间商，实现客户利益最大化</p>
+			  <p>专业服务团队，一对一的技术咨询与指导、贴心的售后服务</p>
+			  <p>已开通全国服务热线，为您制定多种产品需求解决方案</p>
+		  </dd>
+	  </dl>
+  </div>
+
+<!-- 新闻资讯 -->
+<div class="news">
+	<div class="news-a">
+	<dl>
+		<dt>
+			<span>公司新闻</span><a href="#"></a>
+		</dt>
+		<dd>
+			<a href="">*</a>
+			<a href="">*</a>
+			<a href="">*</a>
+		</dd>
+	</dl>
+	<dl>
+		<dt>
+			<span>技术支持</span><a href="#"></a>
+		</dt>
+		<dd>
+			<a href="">*</a>
+			<a href="">*</a>
+			<a href="">*</a>
+		</dd>
+	</dl>
+	<dl class="contact">
+		<dt>
+			<span>联系我们</span><a href="#"></a>
+		</dt>
+		<dd>
+			<h2>此为公司名称</h2>
+			<p>	热线：00000000000<br>
+				手机：00000000000<br>
+				邮箱：00000000000@163.com<br>
+				地址：郑州市郑东新区文苑西路15号
+			</p>
+		</dd>
+	</dl>
+	</div>
+</div>
+
+<!-- 底部 -->
+<div class="footer">
+
+	<span>热线：00000000000</span>
+	<span>手机：00000000000</span>
+	<span>邮箱：00000000000@163.com</span>
+	<span>地址：郑州市郑东新区文苑西路15号</span>
+	<br>
+	<span>Copright© 中航工程机械产品展示官方网站 版权所有</span>
+	
+	<a href="https://beian.miit.gov.cn/" rel="nofollow">|  &nbsp;&nbsp;某ICP备19666533号</a>
+</div>
+
+<!-- 返回顶部 -->
+<div class="back-top">
+	<a class="back-btn" title="返回顶部"></a>
+	<a class="qr"></a>
+	<div class="qr-a">
+		<a class="qrcode"><img src="skin/images/wx.jpg"></a>
+		<span>扫码了解更多产品信息</span>
+	</div>
+</div>
+
+<script type="text/javascript">
+$(function() {
+  $(window).scroll(function(){
+    var scrolltop=$(this).scrollTop();    
+    if(scrolltop>=200){   
+      $(".back-top").show();
+    }else{
+      $(".back-top").hide();
+    }
+  });   
+  $(".back-btn").click(function(){
+    $("html,body").animate({scrollTop: 0}, 500);  
+  });
+
+  $(".qr").hover(function(){
+    $(".qr-a").show();
+  },function(){
+    $(".qr-a").hide();
+  });   
+}); 
+</script>
+
+</body>
+</html>

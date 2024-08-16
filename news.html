@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>中航工程机械产品展示官方网站</title>
+	<meta name="keywords" content="某某公司,某某产品">
+	<meta name="description" content="这是某某公司的网站">
+	<link rel="stylesheet" href="skin/style/css.css">
+	<link rel="stylesheet" href="skin/style/swiper.min.css">
+	<script type="text/javascript" src="skin/js/jquery1.9.1.js"></script>
+	<script src="skin/js/swiper.min.js"></script>
+</head>
+
+<body>
+<div class="header">
+    <a href="#" class="head-logo"><img src="skin/images/logo.png" alt=""></a>
+	<dl>
+		<dt>全国咨询热线</dt>
+		<dd>00000000000</dd>
+	</dl>
+    <div class="head-nav">
+    	<a href="#" class="navcur">网站首页</a>
+    	<a href="file:///C:/Users/Yangzhenyu/Desktop/%E7%BD%91%E9%A1%B5%E7%BB%83%E4%B9%A0/page.html">关于我们</a>
+    	<a href="file:///C:/Users/Yangzhenyu/Desktop/%E7%BD%91%E9%A1%B5%E7%BB%83%E4%B9%A0/products.html">产品中心</a>
+    	<a href="file:///C:/Users/Yangzhenyu/Desktop/%E7%BD%91%E9%A1%B5%E7%BB%83%E4%B9%A0/introduces.html">团队简介</a>
+    	<a href="file:///C:/Users/Yangzhenyu/Desktop/%E7%BD%91%E9%A1%B5%E7%BB%83%E4%B9%A0/news.html">资讯动态</a>
+    </div>
+</div>
+
+<!-- 内页banner图 -->
+<div id="banner">    
+        <img src="skin/images/内页图01.jpg">
+</div>
+<!-- 内页banner图 -->
+
+
+<div class="pagecontent">
+	<dl class="page-left">
+		<dt>
+			<h1>资讯动态</h1>
+			<span>-&nbsp;ABOUT US&nbsp;-</span>
+		</dt>
+		
+		<dd class="page-nav">
+			<a href="#" class="cur">企业动态</a>
+		</dd>
+	    
+	    <dd class="page-us">
+		  <img src="skin/images/联系.jpg" alt="联系我们" />
+		  <p>
+			  固话：010-12345678
+			  <br>
+			  手机：00000000000
+			  <br>
+			  邮箱：0000000000@163.com
+			  <br>
+			  地址：郑州市郑东新区文苑西路15号
+		  </p>		
+	    </dd>	
+	</dl>
+
+<div class="page-right">
+		<div class="right-title">
+			<h1>资讯动态</h1>
+			<p>
+				<a href="">主页 ></a>
+				<a href="">资讯动态 ></a>	
+			</p>	
+		</div>
+	<ul class="news-list">
+		<li><a href="">某某同学完成了毕业设计中CAD图部分</a><span>202-4-25</span><p>经过了多久的学习与思考，某某终于顺利完成了某某产品的设计内容</p></li>
+		<li><a href="">某某同学完成了毕业设计中论文部分</a><span>202-4-25</span><p>******************</p></li>
+		<li><a href="">*******</a><span>202-4-25</span><p>******************</p></li>
+		<li><a href="">*******</a><span>202-4-25</span><p>******************</p></li>
+		<li><a href="">*******</a><span>202-4-25</span><p>******************</p></li>
+		<li><a href="">*******</a><span>202-4-25</span><p>******************</p></li>
+	</ul>
+	
+    <div class="pages">
+		<ul class="pages-c">
+			<li><a href="#">共10条</a></li>
+			<li  class="cur-p"><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">5</a></li>
+			<li><a href="#">下一页</a></li>
+			<li><a href="#">最后一页</a></li>
+		</ul>
+    </div>
+</div>
+<div style="clear:both;"></div>
+
+<!-- 底部 -->
+<div class="footer">
+
+	<span>热线：00000000000</span>
+	<span>手机：00000000000</span>
+	<span>邮箱：00000000000@163.com</span>
+	<span>地址：郑州市郑东新区文苑西路15号</span>
+	<br>
+	<span>Copright© 中航工程机械产品展示官方网站 版权所有</span>
+	
+	<a href="https://beian.miit.gov.cn/" rel="nofollow">|  &nbsp;&nbsp;某ICP备19666533号</a>
+</div>
+
+<!-- 返回顶部 -->
+<div class="back-top">
+	<a class="back-btn" title="返回顶部"></a>
+	<a class="qr"></a>
+	<div class="qr-a">
+		<a class="qrcode"><img src="skin/images/wx.jpg"></a>
+		<span>扫码浏览手机站</span>
+	</div>
+</div>
+
+<script type="text/javascript">
+$(function() {
+  $(window).scroll(function(){
+    var scrolltop=$(this).scrollTop();    
+    if(scrolltop>=200){   
+      $(".back-top").show();
+    }else{
+      $(".back-top").hide();
+    }
+  });   
+  $(".back-btn").click(function(){
+    $("html,body").animate({scrollTop: 0}, 500);  
+  });
+
+  $(".qr").hover(function(){
+    $(".qr-a").show();
+  },function(){
+    $(".qr-a").hide();
+  });   
+}); 
+</script>
+
+</body>
+</html>
